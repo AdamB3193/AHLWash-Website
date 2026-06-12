@@ -1,0 +1,13 @@
+# secrets — never commit
+.env
+.env.local
+
+# local tooling / editor state
+.claude/
+.vercel/
+node_modules/
+
+# business documents and source material — keep off GitHub
+*.pdf
+*_extract.txt
+Photos/
