@@ -9,10 +9,10 @@ const LEADS_TO = process.env.LEADS_TO_EMAIL || "ahlwashinfo@gmail.com";
 const FROM = process.env.LEADS_FROM_EMAIL || "AHL Wash Website <onboarding@resend.dev>";
 
 const SERVICES = [
-  "Same-Week Driveway Revival ($150–$280)",
-  "First Impressions Bundle ($220–$380)",
-  "Full Property Renewal ($320–$550+)",
-  "Not sure — just send me a quote",
+  "The Driveway Reset ($150–$280)",
+  "The First Impressions Package ($220–$380)",
+  "The Full Property Overhaul ($320–$550+)",
+  "Not sure — just quote my property",
 ];
 
 /* best-effort per-IP throttle (resets when the serverless instance recycles) */
