@@ -1012,6 +1012,7 @@ body.no-scroll { overflow: hidden; }
 @media (max-width: 767px) {
   .floating-cta { transform: none; }
   .hero-guarantee { display: none; }
+  .hero-copy .trust { display: none; }
 }
 @media (min-width: 768px) { .floating-cta { display: none; } }
 
