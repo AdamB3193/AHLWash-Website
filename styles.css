@@ -1009,6 +1009,10 @@ body.no-scroll { overflow: hidden; }
   transition: transform 0.35s ease;
 }
 .floating-cta.show { transform: none; }
+@media (max-width: 767px) {
+  .floating-cta { transform: none; }
+  .hero-guarantee { display: none; }
+}
 @media (min-width: 768px) { .floating-cta { display: none; } }
 
 /* ============================================================
