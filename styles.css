@@ -1057,6 +1057,9 @@ body.no-scroll { overflow: hidden; }
   border-top-color: var(--line-d);
 }
 
+/* --- pricing cards (dark bg inside light section) --- */
+.section.light .price-card h3 { color: var(--ink); }
+
 /* --- before/after --- */
 .section.light .ba-panel {
   border-color: var(--line-d);
