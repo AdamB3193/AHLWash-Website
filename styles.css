@@ -1026,6 +1026,8 @@ body.no-scroll { overflow: hidden; }
 }
 .section.light .section-sub { color: var(--muted-d); }
 .section.light .tag { color: var(--blue-link); }
+.section.light .trust li { color: var(--ink-d); }
+.section.light .trust .ico { color: var(--blue-link); }
 
 /* selection + focus stay visible on paper */
 .section.light :focus-visible { outline-color: var(--blue-link); }
