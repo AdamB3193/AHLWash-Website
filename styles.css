@@ -1122,3 +1122,16 @@ body.no-scroll { overflow: hidden; }
    ============================================================ */
 .about-block { max-width: 700px; margin: 0 auto; }
 .about-block p + p { margin-top: 1.1em; }
+
+/* ============================================================
+   PROSE (privacy policy, legal pages)
+   ============================================================ */
+.prose { max-width: 780px; margin: 0 auto; padding-block: 20px 60px; }
+.prose h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 6px; }
+.prose .prose-meta { color: var(--muted-d); font-size: 0.9rem; margin-bottom: 2.5rem; }
+.prose h2 { font-size: 1.35rem; margin: 2.4rem 0 0.6rem; color: var(--ink-d); }
+.prose p { color: var(--muted-d); margin-bottom: 1em; line-height: 1.75; }
+.prose ul { color: var(--muted-d); padding-left: 1.4em; margin-bottom: 1em; line-height: 1.75; }
+.prose ul li { margin-bottom: 0.35em; }
+.prose a { color: var(--blue-link); text-decoration: underline; }
+.prose strong { color: var(--ink-d); font-weight: 600; }
