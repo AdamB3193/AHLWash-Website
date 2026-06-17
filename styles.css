@@ -1118,6 +1118,50 @@ body.no-scroll { overflow: hidden; }
 }
 
 /* ============================================================
+   AVAILABILITY NOTE (quote form scarcity)
+   ============================================================ */
+.avail-note {
+  font-size: 0.8rem; font-weight: 600; color: #4ade80;
+  text-align: center; margin-bottom: 12px;
+  display: flex; align-items: center; justify-content: center; gap: 7px;
+}
+.avail-note::before {
+  content: ""; display: inline-block;
+  width: 7px; height: 7px; border-radius: 50%;
+  background: #4ade80; flex-shrink: 0;
+}
+
+/* ============================================================
+   TESTIMONIAL STRIP (single quote between stats + services)
+   ============================================================ */
+.tstrip { background: var(--bg-2); padding: 32px 0; border-bottom: 1px solid var(--line); }
+.tstrip-inner { max-width: 680px; margin: 0 auto; text-align: center; padding: 0 20px; }
+.tstrip .stars { display: flex; justify-content: center; gap: 3px; margin-bottom: 12px; }
+.tstrip blockquote { font-size: 1.02rem; color: var(--ink); font-style: italic; line-height: 1.65; margin-bottom: 12px; }
+.tstrip figcaption { font-size: 0.84rem; color: var(--muted); }
+.tstrip figcaption strong { color: var(--cyan); margin-right: 4px; }
+
+/* ============================================================
+   GUARANTEE BANNER (inside pricing section)
+   ============================================================ */
+.guar-banner {
+  margin: 40px 0 0; padding: 32px 36px;
+  border: 2px solid var(--orange); border-radius: 16px;
+  text-align: center; background: rgba(245, 90, 31, 0.05);
+}
+.guar-banner h3 {
+  font-family: var(--font-display); font-weight: 800;
+  font-size: clamp(1.35rem, 3vw, 1.85rem);
+  color: var(--ink-d); margin-bottom: 10px;
+}
+.guar-banner p { color: var(--muted-d); max-width: 580px; margin: 0 auto 6px; font-size: 0.97rem; line-height: 1.65; }
+.guar-banner .guar-kicker { font-size: 0.82rem; color: var(--muted-2); }
+@media (max-width: 600px) { .guar-banner { padding: 24px 18px; } }
+
+/* --- referral note --- */
+.referral-note { margin-top: 14px; font-size: 0.88rem; color: var(--muted-d); text-align: center; }
+
+/* ============================================================
    ABOUT SECTION
    ============================================================ */
 .about-block { max-width: 700px; margin: 0 auto; }
